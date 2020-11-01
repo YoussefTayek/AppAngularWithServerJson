@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+body{
+    background-color: #666;
+    font-family: 'Slabo 27px', serif;
+}
+a{
+    color: #ccccff !important;
+}
+a:hover{
+    color:#fff !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+}
+.carousel-inner h1{
+    text-shadow: 1px 1px #000;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+.navbar{
+    background-color: #232930de !important;
+}
+.myicon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.fixedimg1{
+    background-image: url("/images/imagesIndex/fixedimg1.jpg");
+}
+.fixedimg2{
+    background-image: url("/images/imagesIndex/fixedimg2.jpg");
+}
+footer{
+    margin-top: 50px;
+    padding: 10px;
+    padding-bottom: 1px;
+    margin-bottom: -25px;
+}
+.navbar brand, li {
+    transition: 0.5s;
+}
+.navbar brand:hover{
+    text-shadow: 10px 10px 20px #fff,
+                 -10px -10px 20px #fff;
+}
+.navbar li:hover{
+    padding-left: 10px;
+}
+.img-thumbnail{
+    height: 155px;
+    width: 300px;
+    transition: transform 3.5s; /* Animation */
+    position: relative;
+}
+.img-thumbnail:hover{
+    transform: scale(3.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 1;
+}
+card{
+    transition: transform 2.5s; /* Animation */
+    position: relative;
+}
+card:hover{
+    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 1;
+}
+  
